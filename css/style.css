@@ -155,13 +155,35 @@ ul {
   line-height: 16px;
   color: var(--accent-color);
 }
+.ico-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+.contact-link-telephon {
+  display: inline-flex;
+  align-items: center;
+  color: var(--contact-link);
+}
 
 /* hero */
 .hero {
   box-sizing: border-box;
-  background-color: #2f303a;
   text-align: center;
-
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -182,7 +204,6 @@ ul {
   margin-bottom: 30px;
   width: 696px;
   min-height: 120px;
-
   /* margin: 200px 452px 30px 452px; */
 }
 
@@ -210,13 +231,16 @@ ul {
   margin: 0px 700px 294px 700px;
   text-align: center; */
 }
+
 /*  Особенности */
 .features {
   padding-top: 94px;
 }
+
 .features-list {
   display: flex;
 }
+
 .indent {
   margin-right: 30px;
 }
@@ -224,6 +248,20 @@ ul {
 .features-item {
   width: 270px;
   padding: 0px;
+}
+
+.features-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-size: 70px;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
+}
+.icon-delivery::before {
+  background-image: url("../images/antenna.png");
 }
 
 .features-item-head {
@@ -235,6 +273,7 @@ ul {
   color: var(--main-color-text);
   text-transform: uppercase;
   padding: 0px;
+  margin-top: 30px;
 }
 .features-item-text {
   font-family: var(--maine-font);
@@ -297,6 +336,8 @@ ul {
   width: 270px;
   height: 368px;
   background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 /* Наша команда list h3*/
