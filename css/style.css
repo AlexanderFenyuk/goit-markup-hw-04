@@ -161,6 +161,13 @@ ul {
   margin-right: 10px;
   fill: currentColor;
 }
+/* .ico-tel {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}  */
+
 .contact-link-telephon {
   display: inline-flex;
   align-items: center;
