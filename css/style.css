@@ -22,6 +22,7 @@
   --main-color-text: #212121;
   --second-color-text: #757575;
   --separatory-line: #ececec;
+  --social-icon: #afb1b8;
 }
 
 h1,
@@ -114,6 +115,7 @@ ul {
   padding-top: 24px;
   padding-bottom: 25px;
 }
+
 .header .container {
   display: flex;
   align-items: center;
@@ -130,8 +132,9 @@ ul {
   font-size: 14px;
   line-height: 16px;
   color: var(--second-color-text);
-  margin-right: 50px;
+  margin-right: 30px;
 }
+
 .header-tel-link {
   text-decoration: none;
   font-family: var(--maine-font);
@@ -161,12 +164,13 @@ ul {
   margin-right: 10px;
   fill: currentColor;
 }
-/* .ico-tel {
+.ico-tel {
   width: 10px;
   height: 16px;
   margin-right: 10px;
   fill: currentColor;
-}  */
+  text-align: center;
+}
 
 .contact-link-telephon {
   display: inline-flex;
@@ -257,20 +261,6 @@ ul {
   padding: 0px;
 }
 
-.features-item::before {
-  display: block;
-  content: "";
-  height: 120px;
-  background-size: 70px;
-  border-radius: 4px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f4fa;
-}
-.icon-delivery::before {
-  background-image: url("../images/antenna.png");
-}
-
 .features-item-head {
   font-family: var(--maine-font);
   font-style: normal;
@@ -294,6 +284,18 @@ ul {
   padding: 0px;
 }
 
+.features-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+}
+.features-icon {
+  width: 70px;
+}
 /*  Чем мы занимаемся head */
 
 .whatwedo {
@@ -317,7 +319,7 @@ ul {
 
 /* Наша команда head*/
 .ourteam {
-  background: #f5f4fa;
+  background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -339,7 +341,6 @@ ul {
 .container-item {
   display: flex;
   flex-direction: column;
-  /* display: list-item; */
   width: 270px;
   height: 368px;
   background-color: #fff;
@@ -347,7 +348,7 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-/* Наша команда list h3*/
+/* Наша команда list h3 */
 .ourteam-card-head {
   font-family: var(--maine-font);
   font-style: normal;
@@ -377,6 +378,37 @@ ul {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+/*  Наша команда SVG */
+.card-social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 206px;
+  height: 44px;
+  margin: 0 auto 0 auto;
+}
+.item-social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+}
+.social-icon {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  margin-right: 10px;
+  color: var(--social-icon);
+}
+.svg-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+/* ПОРТФОЛИО */
+
 .portfolio-section {
   box-sizing: border-box;
   /* width: 1170px;
@@ -460,7 +492,7 @@ ul {
   width: 294px;
 
   display: block;
-  margin-right: 331px;
+  margin-right: 305px;
 }
 
 .navigation-list {
