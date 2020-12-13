@@ -168,7 +168,10 @@ ul {
 }
 /*акцент ссылок*/
 .connect-link:hover,
-.connect-link:focus,
+.connect-link:focus {
+  background-color: var(--accent-color);
+}
+
 .link-icon:hover,
 .link-icon:focus {
   color: var(--accent-color);
@@ -459,9 +462,11 @@ ul {
   padding-bottom: 6px;
   padding-left: 22px;
 }
+
+/* стили кнопок при ховере в портфолио */
 .pbtn:hover,
 .pbtn:focus {
-  background: var(--accent-color);
+  background-color: var(--accent-color);
   border: none;
   border-radius: 4px;
   font-style: normal;
@@ -511,6 +516,7 @@ ul {
   padding-left: 24px;
   padding-bottom: 20px;
 }
+
 /*  навигация студия*/
 .navigation {
   font-family: var(--maine-font);
@@ -556,12 +562,10 @@ ul {
 .navigation-list-link:focus {
   color: var(--accent-color);
 }
-
-/* стили кнопок при ховере в портфолио */
-.btn:hover,
-.btn:focus {
-  color: #ffffff;
-  background-color: var(--accent-color);
+.container-projects:hover,
+.container-projects:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* портфолио list*/
@@ -707,7 +711,7 @@ ul {
   margin-right: 70px;
 }
 .social {
-  margin: 72px 0 100px 0;
+  padding: 72px 0 100px 0;
 }
 
 .slogan {
