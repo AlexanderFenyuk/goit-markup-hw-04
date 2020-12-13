@@ -265,7 +265,6 @@ ul {
 .features {
   padding-top: 94px;
 }
-
 .features-list {
   display: flex;
 }
@@ -548,22 +547,24 @@ ul {
 }
 
 /*ссылки навигации*/
+
+.header-navigation-list-link,
 .navigation-list-link {
   text-decoration: none;
   color: var(--main-color-text);
 
   display: block;
-  /* padding-top: 32px;
-  padding-bottom: 32px;  */
+}
+/* стили ссылки при ховере */
+
+.header-navigation-list-link:hover,
+.header-navigation-list-link:focus {
+  color: var(--accent-color);
 }
 
-/* стили ссылки при ховере */
 .navigation-list-link:hover,
 .navigation-list-link:focus {
   color: var(--accent-color);
-}
-.container-projects:hover,
-.container-projects:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -710,7 +711,11 @@ ul {
 .contaсt-navigation {
   margin-right: 70px;
 }
+.flex {
+  display: flex;
+}
 .social {
+  display: flex;
   padding: 72px 0 100px 0;
 }
 
