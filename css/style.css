@@ -414,12 +414,14 @@ ul {
   justify-content: center;
   width: 44px;
   height: 44px;
+
+  margin-right: 10px;
 }
 .social-icon {
   width: 44px;
   height: 44px;
   padding: 12px;
-  margin-right: 10px;
+
   color: var(--social-icon);
 }
 .svg-icon {
