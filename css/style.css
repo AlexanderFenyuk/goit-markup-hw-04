@@ -721,7 +721,7 @@ ul {
   display: flex;
 }
 .social {
-  display: block;
+  /* display: block; */
   padding: 12px 0 100px 0;
 }
 
