@@ -561,6 +561,7 @@ ul {
 
   display: block;
 }
+
 /* стили ссылки при ховере */
 
 .header-navigation-list-link:hover,
@@ -599,6 +600,7 @@ ul {
 .curentpage {
   color: var(--accent-color);
 }
+
 /* Постоянные клиенты */
 .clients {
   width: 1170px;
